@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="index.css">
+<head>
+  <title>Student Registration Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <p>Fill out the form carefully for Registration</p>
+    <h3>Student Name</h3>
+    <form>
+        <input type="text" id="first-name" name="first-name" required>
+         
+        <input type="text" id="middle-name" name="middle-name">
+      
+        <input type="text" id="last-name" name="last-name" required>   
+        <br><br> 
+        <div class="label1">
+        <label for="first-name">First Name</label>
+        <label for="middle-name">Middle Name</label> 
+        <label for="last-name">Last Name</label>
+    </div>
+    <br>
+    
+    <label for="dob"><h3>Date of Birth:</h3></label>
+    <br>
+      <input type="date" id="dob" name="dob" required>
+    <br><br>
+      <label for="Gender"><h3>Gender:</h3></label>
+      <br>
+    <select name="Gender" id="Gender">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+    </select>
+
+    <br><br>
+
+    <label for="Address"><h3>Address</h3></label>
+    <br>
+    <input type="text" id="Address" name="Address" required>
+    <br>
+
+
+
+  </select>
+          <button type="submit">Submit</button>
+        </form>
+
+      </body>
+      </html>
